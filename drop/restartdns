@@ -48,5 +48,5 @@ fun_start () {
 while true; do
     restart_slowdns
     echo "Waiting for 30 minutes before the next restart..."
-    sleep 1800  # 30 minutes
+    sleep 600  # 10 minutes
 done
