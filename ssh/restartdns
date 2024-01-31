@@ -39,3 +39,9 @@ fun_bar 'fun_start'
 sleep 2
 echo ""
 echo "  SlowDNS Reiniciado Com Sucesso! [✔]"
+
+while true; do
+    restart_slowdns
+    echo "Waiting for 10 minutes before the next restart..."
+    sleep 600  # 10 minutes
+done
